@@ -13,6 +13,9 @@ if (userAge >= 65) {
 
 document.getElementById("train-ticket").innerHTML =
   "Il tuo biglietto ha un costo di " + finalPrice.toFixed(2) + "€";
+document.getElementById("train-buy").innerHTML =
+  "Vuoi procedere con l'acquisto?";
+document.getElementById("train-button").innerHTML = "Compra Ora!";
 
 if (isNaN(distanceKM) || isNaN(userAge)) {
   alert("Valore numerico errato, riprova!");
