@@ -20,7 +20,9 @@ document.getElementById("train-button").innerHTML = "Compra Ora!";
 if (isNaN(distanceKM) || isNaN(userAge)) {
   alert("Valore numerico errato, riprova!");
   document.getElementById("train-ticket").innerHTML =
-    "Valore numerico errato, ricarica la pagina e riprova!";
+    "Attenzione, valore numerico errato!";
+  document.getElementById("train-buy").innerHTML = "Ricarica la Pagina";
+  document.getElementById("train-button").innerHTML = "Impossibile procedere.";
 }
 
 console.log("Il prezzo finale è: " + finalPrice.toFixed(2));
